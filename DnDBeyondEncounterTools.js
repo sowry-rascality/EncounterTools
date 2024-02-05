@@ -18,9 +18,7 @@
     'use strict';
 
     let scriptId = 'DnDBeyondEncounterToolsScript'; // you could encode the css path itself to generate id..
-    let styleId = 'DnDBeyondEncounterToolsStyle';
     let head = document.getElementsByTagName('head')[0];
-    let host = 'https://cdn.jsdelivr.net/gh/sowry-rascality/EncounterTools@main/dist'
 
     document.querySelectorAll('script').forEach((script) => {
         if (script.src.includes('https://media.dndbeyond.com/encounter-builder/static/js')) {
@@ -32,13 +30,7 @@
     if (!document.getElementById(scriptId)) {
         let script = document.createElement('script');
         script.id = scriptId;
-        script.src = `${host}/bundle.js`;
+        script.src = `https://github.com/sowry-rascality/EncounterTools/releases/download/${version}/bundle.js`;
         head.appendChild(script);
     }
-    // if (!document.getElementById(styleId)) {
-    //     let style = document.createElement('style');
-    //     style.id = scriptId;
-    //     style.src = `${host}/bundle.css`;
-    //     head.appendChild(style);
-    // }
 })();
