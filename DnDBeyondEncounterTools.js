@@ -20,7 +20,7 @@
     let scriptId = 'DnDBeyondEncounterToolsScript'; // you could encode the css path itself to generate id..
     let styleId = 'DnDBeyondEncounterToolsStyle';
     let head = document.getElementsByTagName('head')[0];
-    let host = 'https://raw.githubusercontent.com/sowry-rascality/EncounterTools/main/dist'
+    let host = 'https://cdn.jsdelivr.net/gh/sowry-rascality/EncounterTools@main/dist'
 
     document.querySelectorAll('script').forEach((script) => {
         if (script.src.includes('https://media.dndbeyond.com/encounter-builder/static/js')) {
