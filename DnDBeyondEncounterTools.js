@@ -4,8 +4,8 @@
 // @version      0.2.0
 // @author       Sowry
 // @namespace    Sowry
-// @downloadURL  https://raw.githubusercontent.com/sowry-rascality/EncounterToolsDist/main/DnDBeyondEncounterTools.js
-// @updateURL    https://raw.githubusercontent.com/sowry-rascality/EncounterToolsDist/main/DnDBeyondEncounterTools.js
+// @downloadURL  https://raw.githubusercontent.com/sowry-rascality/EncounterTools/main/DnDBeyondEncounterTools.js
+// @updateURL    https://raw.githubusercontent.com/sowry-rascality/EncounterTools/main/DnDBeyondEncounterTools.js
 // @homepageURL  https://github.com/sowry-rascality/DnDBeyondEncounterTools
 // @match        https://www.dndbeyond.com/*
 // @run-at       document-end
@@ -20,7 +20,7 @@
     let scriptId = 'DnDBeyondEncounterToolsScript'; // you could encode the css path itself to generate id..
     let styleId = 'DnDBeyondEncounterToolsStyle';
     let head = document.getElementsByTagName('head')[0];
-    let host = 'https://raw.githubusercontent.com/sowry-rascality/EncounterToolsDist'
+    let host = 'https://raw.githubusercontent.com/sowry-rascality/EncounterTools/main/dist'
 
     document.querySelectorAll('script').forEach((script) => {
         if (script.src.includes('https://media.dndbeyond.com/encounter-builder/static/js')) {
