@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DnDBeyond Encounter Tools
 // @description  Encounter Tools
-// @version      0.2.0
+// @version      0.2.1
 // @author       Sowry
 // @namespace    Sowry
 // @downloadURL  https://raw.githubusercontent.com/sowry-rascality/EncounterTools/main/DnDBeyondEncounterTools.js
@@ -12,7 +12,7 @@
 // @grant        none
 // ==/UserScript==
 (() => {
-    const version = "0.2.0";
+    const version = "0.2.1";
     console.log(`Loaded Version ${version}`);
 
     'use strict';
